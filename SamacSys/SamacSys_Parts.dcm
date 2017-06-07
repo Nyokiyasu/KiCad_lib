@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BU4920F-TR
+D Supervisory Circuits IC CMOS VOLT DETECT
+F http://www.rohm.com/web/eu/datasheet/BU4920F/bu48xxg-e
+$ENDCMP
+#
+$CMP NE555D
+D NE555DG4, Timer, 4.5 To 16V, 8-Pin SOIC-8
+F Http:  //www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+#End Doc Library

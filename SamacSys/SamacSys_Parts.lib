@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# BU4920F-TR
+#
+DEF BU4920F-TR IC 0 30 Y Y 1 F N
+F0 "IC" 500 150 50 H V C CNN
+F1 "BU4920F-TR" 500 -250 50 H V C CNN
+F2 "BU4225F-TR(SOP-4)" 500 -350 50 H I C CNN
+F3 "http://www.rohm.com/web/eu/datasheet/BU4920F/bu48xxg-e" 500 -450 50 H I C CNN
+F4 "Supervisory Circuits IC CMOS VOLT DETECT" 500 -550 50 H I C CNN "Description"
+F5 "ROHM Semiconductor" 500 -650 50 H I C CNN "Manufacturer_Name"
+F6 "BU4920F-TR" 500 -750 50 H I C CNN "Manufacturer_Part_Number"
+F7 "RS" 500 -850 50 H I C CNN "Supplier_Name"
+DRAW
+S 200 100 800 -200 0 0 10 f
+X VOUT 1 0 0 200 R 50 50 0 0 w
+X VDD 2 0 -100 200 R 50 50 0 0 W
+X N.C. 3 1000 0 200 L 50 50 0 0 N
+X GND 4 1000 -100 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# NE555D
+#
+DEF NE555D IC 0 30 Y Y 1 F N
+F0 "IC" 550 150 50 H V C CNN
+F1 "NE555D" 550 -450 50 H V C CNN
+F2 "SOIC127P600X175-8N" 550 -550 50 H I C CNN
+F3 "http: //www.ti.com/lit/ds/symlink/ne555.pdf" 550 -650 50 H I C CNN
+F4 "NE555DG4, Timer, 4.5 To 16V, 8-Pin SOIC-8" 550 -750 50 H I C CNN "Description"
+F5 "Texas Instruments" 550 -850 50 H I C CNN "Manufacturer_Name"
+F6 "NE555D" 550 -950 50 H I C CNN "Manufacturer_Part_Number"
+F7 "RS" 550 -1050 50 H I C CNN "Supplier_Name"
+F8 "6624661P" 550 -1150 50 H I C CNN "RS Part Number"
+F9 "1.75" 550 -1250 50 H I C CNN "Height"
+DRAW
+S 200 100 900 -400 0 0 10 f
+X GND 1 0 0 200 R 50 50 0 0 W
+X TRIG 2 0 -100 200 R 50 50 0 0 U
+X OUT 3 0 -200 200 R 50 50 0 0 O
+X Reset 4 0 -300 200 R 50 50 0 0 U
+X CONT 5 1100 -300 200 L 50 50 0 0 U
+X THRES 6 1100 -200 200 L 50 50 0 0 U
+X DISCH 7 1100 -100 200 L 50 50 0 0 U
+X VCC 8 1100 0 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library
